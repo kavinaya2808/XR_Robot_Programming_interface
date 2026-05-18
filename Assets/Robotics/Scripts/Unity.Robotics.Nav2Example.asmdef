@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Robotics.Nav2Example",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Robotics.ROSTCPConnector",
+        "Unity.Robotics.Visualizations",
+        "Unity.TextMeshPro",
+        "Unity.ML-Agents"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
