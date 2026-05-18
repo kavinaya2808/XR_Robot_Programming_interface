@@ -4,8 +4,8 @@ A Mixed Reality (MR) robotics interface built using **Unity**, **ROS 2**, **Meta
 
 This project replaces traditional 2D robot dashboards with immersive spatial interfaces in MR and VR environments, allowing operators to monitor robot telemetry and interact with robotic systems more intuitively.
 
-<img width="500" height="300" alt="Screenshot 2026-05-18 at 11 12 02 PM" src="https://github.com/user-attachments/assets/fbaad2dc-3672-4838-926d-352c6aa582bb" />
-<img width="500" height="300" alt="Screenshot 2026-05-18 at 11 13 47 PM" src="https://github.com/user-attachments/assets/15c01dd9-d4b1-49f9-9c53-a928c2425c19" />
+<img width="350" height="200" alt="Screenshot 2026-05-18 at 11 12 02 PM" src="https://github.com/user-attachments/assets/fbaad2dc-3672-4838-926d-352c6aa582bb" />
+<img width="350" height="200" alt="Screenshot 2026-05-18 at 11 13 47 PM" src="https://github.com/user-attachments/assets/15c01dd9-d4b1-49f9-9c53-a928c2425c19" />
 
 
 
