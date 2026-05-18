@@ -1,4 +1,4 @@
-# User Interaction Layer for Robot Programming
+# Mixed Reality User Interface for Robot Programming
 
 A Mixed Reality (MR) robotics interface built using **Unity**, **ROS 2**, **Meta Quest 3**, and **MRTK3** for real-time robot monitoring, visualization, and interaction.
 
