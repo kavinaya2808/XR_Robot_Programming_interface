@@ -68,33 +68,6 @@ The system supports:
 
 ---
 
-# 🤖 System Architecture
-
-The system follows a layered robotics architecture:
-
-### Input Layer
-Robots can be controlled using:
-- Pre-assignment task to cover the room
-- ROS 2 commands
-- ML-Agent autonomous control
-
-### Robot Layer
-Each robot contains:
-- Telemetry publishers
-- LiDAR simulation
-- Collision handling
-- Sensor systems
-- ML-Agent behavior scripts
-
-### Output Layer
-Robot data is streamed to:
-- Mixed Reality dashboard
-- Unity simulation
-- ROS 2 topics
-- SLAM visualization systems
-
----
-
 # 🖥️ Mixed Reality Dashboard
 
 A custom MR dashboard was designed for immersive robot supervision.
