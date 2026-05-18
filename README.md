@@ -4,7 +4,10 @@ A Mixed Reality (MR) robotics interface built using **Unity**, **ROS 2**, **Meta
 
 This project replaces traditional 2D robot dashboards with immersive spatial interfaces in MR and VR environments, allowing operators to monitor robot telemetry and interact with robotic systems more intuitively.
 
-<img width="915" height="550" alt="MR1" src="https://github.com/user-attachments/assets/db831c40-c7a3-497e-9d8d-9fb4816c631b" />
+<img width="500" height="300" alt="Screenshot 2026-05-18 at 11 12 02 PM" src="https://github.com/user-attachments/assets/fbaad2dc-3672-4838-926d-352c6aa582bb" />
+<img width="500" height="300" alt="Screenshot 2026-05-18 at 11 13 47 PM" src="https://github.com/user-attachments/assets/15c01dd9-d4b1-49f9-9c53-a928c2425c19" />
+
+
 
 ---
 
@@ -23,7 +26,8 @@ The system supports:
 - Real-time SLAM visualization and LiDAR integration
 - TurtleBot3 robot simulation
 
-<img width="539" height="465" alt="Screenshot 2026-05-18 at 3 06 22 PM" src="https://github.com/user-attachments/assets/3ca03994-71fa-4eb9-a53c-513f0f1622cc" />
+<img width="278" height="243" alt="Screenshot 2026-05-18 at 11 03 06 PM" src="https://github.com/user-attachments/assets/ad958b1e-717e-42a3-9cbf-bfdbb3eb20f0" />
+<img width="278" height="243" alt="Screenshot 2026-05-18 at 11 03 37 PM" src="https://github.com/user-attachments/assets/d4b5b98c-88b7-40a3-bec3-6e3a7979f838" />
 
 ---
 
@@ -85,6 +89,7 @@ A custom MR dashboard was designed for immersive robot supervision.
 - XR controller interaction
 - Real-time data visualization inside MR space
 
+
 ---
 
 # 🌍 Mixed Reality Environment
@@ -114,6 +119,8 @@ Robots can:
 - Learn area coverage behavior
 - Generate real-time occupancy maps
 
+<img width="300" height="262" alt="Screenshot 2026-05-18 at 11 07 24 PM" src="https://github.com/user-attachments/assets/1042fcc5-7937-49f6-bb3b-5ff88594a672" />
+<img width="300" height="262" alt="Screenshot 2026-05-18 at 11 08 25 PM" src="https://github.com/user-attachments/assets/e114ce44-1e99-45de-a0bc-0b9cfc1fa08d" />
 
 ---
 
