@@ -1,4 +1,4 @@
-# Mixed Reality Robot Monitoring & Programming Interface
+# User Interaction Layer for Robot Programming
 
 A Mixed Reality (MR) robotics interface built using **Unity**, **ROS 2**, **Meta Quest 3**, and **MRTK3** for real-time robot monitoring, visualization, and interaction.
 
@@ -74,12 +74,9 @@ The system follows a layered robotics architecture:
 
 ### Input Layer
 Robots can be controlled using:
-- Keyboard input
+- Pre-assignment task to cover the room
 - ROS 2 commands
 - ML-Agent autonomous control
-
-### Control Layer
-A centralized controller converts robot velocity commands into differential wheel movement.
 
 ### Robot Layer
 Each robot contains:
@@ -144,18 +141,6 @@ Robots can:
 - Learn area coverage behavior
 - Generate real-time occupancy maps
 
----
-
-# 📂 Project Highlights
-
-- Built immersive MR dashboards for robotics
-- Developed real-time telemetry visualization system
-- Integrated Unity with ROS 2
-- Implemented spatial UI interaction using MRTK3
-- Simulated LiDAR and robot sensors
-- Added SLAM visualization support
-- Integrated ML-based autonomous robot behavior
-- Supported both VR and MR robot interaction
 
 ---
 
