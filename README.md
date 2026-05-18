@@ -1,89 +1,186 @@
-# Mixed Reality Toolkit 3 in-editor tutorials
+# Mixed Reality Robot Monitoring & Programming Interface
 
-![MRTK3 in-editor tutorials banner that showcases the Bounds Control, Buttons, Hand Menu, and Object Manipulator features in four corners of the image, starting from top left to top right.](Assets/READMEImages/banner.png)
+A Mixed Reality (MR) robotics interface built using **Unity**, **ROS 2**, **Meta Quest 3**, and **MRTK3** for real-time robot monitoring, visualization, and interaction.
 
-The MRTK3 in-editor tutorials guide you through each step of the way to build your first MRTK3 application in a beautiful aquarium. 
+This project replaces traditional 2D robot dashboards with immersive spatial interfaces in MR and VR environments, allowing operators to monitor robot telemetry and interact with robotic systems more intuitively.
 
-## Getting Started with the MRTK3 in-editor tutorials
+<img width="915" height="550" alt="MR1" src="https://github.com/user-attachments/assets/db831c40-c7a3-497e-9d8d-9fb4816c631b" />
 
-1. Install Unity 2021.3.4f1
-1. Clone this repository to your computer.
-1. Open the cloned project "MRTK3-iet-tutorials" with Unity 2021.3.4f1.
-1. You should see a **Tutorials** window on the right side of your screen that contains a list of seven tutorials. If not, on the menu bar, select **Tutorial** > **Show Tutorials**.
-1. In the **Tutorials** window, select the tutorial you want to proceed with.
+---
 
-## Tutorials
+## 🚀 Project Overview
 
-### Preview the Project
+The project introduces a **Mixed Reality User Interaction Layer** for robot monitoring and robot programming.  
+Using spatial dashboards and real-time telemetry streaming, operators can visualize robot status directly inside the physical environment through Meta Quest 3 passthrough mixed reality.
 
-![An aquarium scene that consists of sea coral, sea grass, and rocks surrounding the environment. A boat is placed into the sand in the back right corner. A treasure chest is placed in the middle of the aquarium. A hide toggle button is to the right of the treasure chest.](Assets/READMEImages/preview-project-full.jpg)
+The system supports:
+- Real-time robot telemetry visualization
+- Spatial MR dashboard interfaces
+- Robot monitoring in VR and MR
+- Integrated TurtleBot3 robot simulation with ROS 2
+- Multi-input robot control systems
+- Autonomous robot simulation using ML-Agents
+- Real-time SLAM visualization and LiDAR integration
+- TurtleBot3 robot simulation
 
-Learn about the various solutions for previewing scenes without compiling and deploying projects to a XR device.
+<img width="539" height="465" alt="Screenshot 2026-05-18 at 3 06 22 PM" src="https://github.com/user-attachments/assets/3ca03994-71fa-4eb9-a53c-513f0f1622cc" />
 
-### How to use MRTK Input Simulation
+---
 
-![A pair of simulated hands displayed next to one another. A ray is placed in front of each hand.](Assets/READMEImages/hand-rays-full.png)
+# 🧠 Key Features
 
-Learn how to simulate input directly into the Unity editor with MRTK In-Editor Input Simulation.
+- Real-time telemetry dashboard
+- Spatial Mixed Reality UI panels
+- Interactive draggable dashboards
+- Robot position and movement tracking
+- Battery and task monitoring
+- ROS 2 integration with Unity
+- Controller-based XR interaction
+- LiDAR sensor simulation
+- SLAM map visualization
+- ML-Agent autonomous robot behavior
+- URDF robot integration into Unity
 
-### Object Manipulator
+---
 
-![An aquarium scene with coral, rocks, and sea grass. In the middle of the aquarium is a simulated hand that is grabbing a treasure chest.](Assets/READMEImages/object-manipulator-full.jpg)
+# 🛠️ Tech Stack
 
-Move and manipulate objects with one or two hands with a wide variety of input modalities.
+### Mixed Reality & Frontend
+- Unity 2022 LTS
+- C#
+- MRTK3
+- OpenXR
+- XR Interaction Toolkit
+- Meta Quest 3
 
-### Bounds Control
+### Robotics & Backend
+- ROS 2
+- ROS TCP Connector
+- SLAM Toolbox
+- URDF Importer
+- Robotics Visualization Tools
+- TurtleBot3 robot simulation
 
-![An aquarium scene with coral, rocks, and sea grass spread around the tank. A coral is in the middle with a bounding box surrounding it's shape.](Assets/READMEImages/bounds-control-full.jpg)
+### AI & Simulation
+- Unity ML-Agents
+- Differential Drive System
+- LiDAR Simulation
 
-Intent feedback and precision manipulation affordances.
+---
 
-### Canvas Button
+# 🤖 System Architecture
 
-![An aquarium scene with coral, rocks, and sea grass around the tank. A Seahorse is in the middle of the tank. To the right of the sea horse is a toggle button that has a seahorse icon.](Assets/READMEImages/canvas-button-full.jpg)
+The system follows a layered robotics architecture:
 
-A volumetric button optimized for a wide range of input modalities.
+### Input Layer
+Robots can be controlled using:
+- Keyboard input
+- ROS 2 commands
+- ML-Agent autonomous control
 
-### Canvas Button bar
+### Control Layer
+A centralized controller converts robot velocity commands into differential wheel movement.
 
-![An aquarium scene with sand and a boat sticking straight up in the middle of the tank. At the front of the tank is a button bar that says coral, sea grass, rock, and boat.](Assets/READMEImages/button-bar-full.jpg)
+### Robot Layer
+Each robot contains:
+- Telemetry publishers
+- LiDAR simulation
+- Collision handling
+- Sensor systems
+- ML-Agent behavior scripts
 
-A volumetric button bar optimized for a wide range of input modalities.
+### Output Layer
+Robot data is streamed to:
+- Mixed Reality dashboard
+- Unity simulation
+- ROS 2 topics
+- SLAM visualization systems
 
-## Contributing
+---
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+# 🖥️ Mixed Reality Dashboard
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+A custom MR dashboard was designed for immersive robot supervision.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+### Dashboard Features
+- Position & movement tracking
+- Robot status monitoring
+- Battery analytics
+- Task progress visualization
+- Real-time telemetry updates
 
-## Trademarks
+### Interaction Features
+- Spatially anchored UI panels
+- Draggable and repositionable dashboards
+- XR controller interaction
+- Real-time data visualization inside MR space
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
-# User_Interaction_Layer_for_Mixed_Reality
+---
+
+# 🌍 Mixed Reality Environment
+
+Using Meta Quest 3 passthrough capabilities, the system integrates robots into real-world environments.
+
+The project dynamically:
+- Detects room geometry
+- Generates obstacle colliders
+- Supports real-world interaction
+- Visualizes robots in MR space
+
+This creates an immersive robot supervision experience combining physical and virtual environments.
+
+---
+
+# 🧪 Machine Learning & SLAM
+
+The project integrates:
+- Unity ML-Agents for autonomous robot behavior
+- SLAM Toolbox with ROS 2 for map generation
+- Simulated LiDAR sensors for environment scanning
+
+Robots can:
+- Navigate environments
+- Avoid obstacles
+- Learn area coverage behavior
+- Generate real-time occupancy maps
+
+---
+
+# 📂 Project Highlights
+
+- Built immersive MR dashboards for robotics
+- Developed real-time telemetry visualization system
+- Integrated Unity with ROS 2
+- Implemented spatial UI interaction using MRTK3
+- Simulated LiDAR and robot sensors
+- Added SLAM visualization support
+- Integrated ML-based autonomous robot behavior
+- Supported both VR and MR robot interaction
+
+---
+
+# 🎮 Hardware Used
+
+- Meta Quest 3
+
+---
+
+# 👨‍💻 Authors
+
+**Kavinaya Kumarchokkappan**  
+University of Bern – Software Engineering Group
+
+Collaboration:
+- Cem Erdogdu
+
+Supervisors:
+- Prakash Aryan
+- Dr. Sebastiano Panichella
+
+---
+
+# 📸 Demo
+
+https://www.youtube.com/watch?v=weSO2o2pIc4
+
+---
