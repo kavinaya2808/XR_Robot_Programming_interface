@@ -1,6 +1,6 @@
 # Mixed Reality User Interface for Robot Programming
 
-A Mixed Reality (MR) robotics interface built using **Unity**, **ROS 2**, **Meta Quest 3**, and **MRTK3** for real-time robot monitoring, visualization, and interaction.
+A Mixed Reality (MR) robotics interface built using **Unity**, **ROS 2**, **Meta Quest 3s**, and **MRTK3** for real-time robot monitoring, visualization, and interaction.
 
 This project replaces traditional 2D robot dashboards with immersive spatial interfaces in MR and VR environments, allowing operators to monitor robot telemetry and interact with robotic systems more intuitively.
 
@@ -14,7 +14,7 @@ This project replaces traditional 2D robot dashboards with immersive spatial int
 ## Project Overview
 
 The project introduces a **Mixed Reality User Interaction Layer** for robot monitoring and robot programming.  
-Using spatial dashboards and real-time telemetry streaming, operators can visualize robot status directly inside the physical environment through Meta Quest 3 passthrough mixed reality.
+Using spatial dashboards and real-time telemetry streaming, operators can visualize robot status directly inside the physical environment through Meta Quest 3s passthrough mixed reality.
 
 The system supports:
 - Real-time robot telemetry visualization
@@ -55,7 +55,7 @@ The system supports:
 - MRTK3
 - OpenXR
 - XR Interaction Toolkit
-- Meta Quest 3
+- Meta Quest 3s
 
 ### Robotics & Backend
 - ROS 2
@@ -94,7 +94,7 @@ A custom MR dashboard was designed for immersive robot supervision.
 
 # Mixed Reality Environment
 
-Using Meta Quest 3 passthrough capabilities, the system integrates robots into real-world environments.
+Using Meta Quest 3s passthrough capabilities, the system integrates robots into real-world environments.
 
 The project dynamically:
 - Detects room geometry
@@ -126,7 +126,7 @@ Robots can:
 
 # Hardware Used
 
-- Meta Quest 3
+- Meta Quest 3s
 
 ---
 
