@@ -11,7 +11,7 @@ This project replaces traditional 2D robot dashboards with immersive spatial int
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The project introduces a **Mixed Reality User Interaction Layer** for robot monitoring and robot programming.  
 Using spatial dashboards and real-time telemetry streaming, operators can visualize robot status directly inside the physical environment through Meta Quest 3 passthrough mixed reality.
@@ -31,7 +31,7 @@ The system supports:
 
 ---
 
-# 🧠 Key Features
+# Key Features
 
 - Real-time telemetry dashboard
 - Spatial Mixed Reality UI panels
@@ -47,7 +47,7 @@ The system supports:
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 ### Mixed Reality & Frontend
 - Unity 2022 LTS
@@ -72,7 +72,7 @@ The system supports:
 
 ---
 
-# 🖥️ Mixed Reality Dashboard
+# Mixed Reality Dashboard
 
 A custom MR dashboard was designed for immersive robot supervision.
 
@@ -92,7 +92,7 @@ A custom MR dashboard was designed for immersive robot supervision.
 
 ---
 
-# 🌍 Mixed Reality Environment
+# Mixed Reality Environment
 
 Using Meta Quest 3 passthrough capabilities, the system integrates robots into real-world environments.
 
@@ -106,7 +106,7 @@ This creates an immersive robot supervision experience combining physical and vi
 
 ---
 
-# 🧪 Machine Learning & SLAM
+# Machine Learning & SLAM
 
 The project integrates:
 - Unity ML-Agents for autonomous robot behavior
@@ -124,18 +124,18 @@ Robots can:
 
 ---
 
-# 🎮 Hardware Used
+# Hardware Used
 
 - Meta Quest 3
 
 ---
 
-# 👨‍💻 Authors
+# Authors
 
-**Kavinaya Kumarchokkappan**  
 University of Bern – Software Engineering Group
 
 Collaboration:
+- Kavinaya Kumarchokkappan
 - Cem Erdogdu
 
 Supervisors:
@@ -144,7 +144,7 @@ Supervisors:
 
 ---
 
-# 📸 Demo
+# Demo
 
 https://www.youtube.com/watch?v=weSO2o2pIc4
 
