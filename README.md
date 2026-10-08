@@ -128,19 +128,6 @@ Robots can:
 
 - Meta Quest 3s
 
----
-
-# Authors
-
-University of Bern – Software Engineering Group
-
-Collaboration:
-- Kavinaya Kumarchokkappan
-- Cem Erdogdu
-
-Supervisors:
-- Prakash Aryan
-- Dr. Sebastiano Panichella
 
 ---
 
